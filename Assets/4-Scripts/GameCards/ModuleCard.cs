@@ -15,7 +15,7 @@ namespace GameCards
     }
 
     [CreateAssetMenu(fileName = "Module Card", menuName = "Card System/New Module Card")]
-    public class ModuleCard : CardData
+    public class ModuleCard : Card
     {
         [SerializeField] private string _name;
         [SerializeField] private ModuleType _moduleType;

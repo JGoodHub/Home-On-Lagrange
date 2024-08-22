@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace CardSystem
 {
-    public class CardData : ScriptableObject
+    public class Card : ScriptableObject
     {
         [SerializeField] private int _id;
 

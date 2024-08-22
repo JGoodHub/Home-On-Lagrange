@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using CardSystem;
 using UnityEngine;
 
-public class ModuleDeckView : MonoBehaviour
+public class DeckView : MonoBehaviour
 {
     [SerializeField] private Transform _cardStackTransform;
     [SerializeField] private Transform _topCardTransform;
